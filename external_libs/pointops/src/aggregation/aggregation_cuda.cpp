@@ -1,5 +1,6 @@
 #include <vector>
-#include <THC/THC.h>
+#include <torch/extension.h>
+#include <torch/torch.h>
 #include <torch/serialize/tensor.h>
 #include <ATen/cuda/CUDAContext.h>
 #include "aggregation_cuda_kernel.h"
